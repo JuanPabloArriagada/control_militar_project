@@ -1,0 +1,5 @@
+flask db init
+flask db migrate -m "Primera migración - modelos base"
+flask db upgrade
+
+python -m app.main
